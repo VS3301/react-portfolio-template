@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-template/static/css/main.9385c000.css",
+    "main.js": "/react-portfolio-template/static/js/main.ea9e49e1.js",
+    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock12.png": "/react-portfolio-template/static/media/mock12.20aad78466165fa75d08.png",
+    "static/media/mock14.png": "/react-portfolio-template/static/media/mock14.c481cb8f5aceead80dd2.png",
+    "static/media/mock11.png": "/react-portfolio-template/static/media/mock11.0c094793d2206176cee1.png",
+    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock13.png": "/react-portfolio-template/static/media/mock13.7fb6cf119cebcafafd78.png",
+    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Varun.jpg": "/react-portfolio-template/static/media/Varun.e5eaa10637331578f5b6.jpg",
+    "static/media/mock18.png": "/react-portfolio-template/static/media/mock18.1cb166a4017d44dfdffa.png",
+    "static/media/mock15.png": "/react-portfolio-template/static/media/mock15.b6d91921bc397efd6e31.png",
+    "static/media/mock16.png": "/react-portfolio-template/static/media/mock16.781ec13481f3265c36e8.png",
+    "static/media/mock17.png": "/react-portfolio-template/static/media/mock17.f63c1d8b72e6359bea75.png",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.9385c000.css.map": "/react-portfolio-template/static/css/main.9385c000.css.map",
+    "main.ea9e49e1.js.map": "/react-portfolio-template/static/js/main.ea9e49e1.js.map",
+    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9385c000.css",
+    "static/js/main.ea9e49e1.js"
+  ]
+}
