@@ -1,49 +1,80 @@
 .projects-container {
-    display: flex;
-    flex-direction: column;
-    padding: 5% 10%;
-    text-align: left;
-}
-  
-.projects-container .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-}
-  
-.projects-container .projects-grid .project {
-    text-align: left;
-}
-  
-.project h2:hover {
-    text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-  
-.zoom {
-    border-radius: 5px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-  
-.zoom:hover {
-    transform: scale(1.05);
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
 }
 
-@media screen {
-    @media (max-width: 700px) {
-        .projects-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-  
-        .projects-container .projects-grid {
-            display: block;
-        }
-      
-        .projects-container .projects-grid .project {
-            padding-bottom: 5%;
-        }
-    }
+.projects-container .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.projects-container .projects-grid .project {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.project h2:hover {
+  text-decoration: underline;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+/* === Image Style for Uniform Size === */
+.project img {
+  height: 300px;          // All images same height
+  width: 100%;
+  object-fit: cover;      // Fill without distortion
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+/* Optional: keeps zoom effect */
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Button styling */
+.project-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #327bac;
+  color: rgb(52, 3, 37);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #39c5b9;
+  }
+}
+
+/* === Responsive for small screens === */
+@media screen and (max-width: 700px) {
+  .projects-container {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .projects-container .projects-grid {
+    display: block;
+  }
+
+  .projects-container .projects-grid .project {
+    padding-bottom: 5%;
+  }
+
+  .project img {
+    height: 180px; // slightly smaller on mobile
+  }
 }
